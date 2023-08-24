@@ -1,0 +1,60 @@
+/* * {
+  position: relative;
+} */
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo {
+  width: 500px;
+  height: 500px;
+  border: 1px solid #fef;
+  background: #f60;
+  overflow: hidden;
+  /* opacity: 0; */
+  position: relative;
+}
+
+.box {
+  width: 55px;
+  height: 55px;
+  border-radius: 8px;
+}
+.assets {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box:not(:last-child) {
+  margin-right: 10px;
+}
+.red {
+  background: red;
+  opacity: 0;
+}
+.blue {
+  background: lightblue;
+}
+.restart {
+    background: red;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    outline: none;
+    background: greenyellow;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+}
